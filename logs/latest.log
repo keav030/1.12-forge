@@ -1,0 +1,80 @@
+[00:02:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: EssJona fell from a high place
+[00:02:37] [Server thread/INFO] [tombstone]: The last known grave of EssJona is at location [name:Last Grave, x:-221, y:77, z:-76] in the dimension 0
+[00:04:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: EssJona has made the advancement [Best Friends Forever]
+[00:05:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nicox: Teleported Nicox to Keav30]
+[00:17:33] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@3c7878b7)
+[00:18:40] [Server thread/INFO] [FML]: Unloading dimension -1
+[00:18:40] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Keav30 moved too quickly! -144.64330595645873,-7.5,18.305791345703007
+[00:18:40] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2677ms behind, skipping 53 tick(s)
+[00:20:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Nicox has made the advancement [The Parrots and the Bats]
+[00:29:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: EssJona has made the advancement [Isn't It Iron Pick]
+[00:37:21] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: EssJona moved too quickly! -2.237221448027043,-2.2578585658599835,9.793743138696584
+[00:42:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Keav30> -1045 74 -327
+[01:03:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Nicox has made the advancement [Rotten to the Core]
+[01:19:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: EssJona has made the advancement [The Parrots and the Bats]
+[01:51:53] [Netty Server IO #1/ERROR] [FML]: NetworkDispatcher exception
+java.io.IOException: Se ha anulado una conexión establecida por el software en su equipo host.
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_221]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_221]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_221]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_221]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_221]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[PooledUnsafeDirectByteBuf.class:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[AbstractByteBuf.class:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:372) ~[NioSocketChannel.class:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:123) [AbstractNioByteChannel$NioByteUnsafe.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:624) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:559) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:476) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438) [NioEventLoop.class:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) [SingleThreadEventExecutor$5.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+[01:51:53] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: EssJona lost connection: Internal Exception: java.io.IOException: Se ha anulado una conexión establecida por el software en su equipo host.
+[01:51:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: EssJona left the game
+[02:00:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Keav30 blew up
+[02:00:54] [Server thread/INFO] [tombstone]: The last known grave of Keav30 is at location [name:Last Grave, x:-174, y:91, z:-64] in the dimension 0
+[02:14:13] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Nicox moved wrongly!
+[02:14:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Nicox blew up
+[02:14:13] [Server thread/INFO] [tombstone]: The last known grave of Nicox is at location [name:Last Grave, x:-144, y:63, z:-157] in the dimension 0
+[02:18:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Nicox: Teleported Nicox to Keav30]
+[02:21:49] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Keav30 lost connection: Disconnected
+[02:21:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Keav30 left the game
+[02:24:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[02:24:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[02:24:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[02:24:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[02:24:22] [Server thread/INFO] [FML]: Unloading dimension 0
+[02:24:22] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[02:24:22] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[02:24:22] [AWT-EventQueue-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: net.minecraftforge.fml.relauncher.FMLSecurityManager$ExitTrappedException
+[02:24:22] [AWT-EventQueue-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at net.minecraftforge.fml.common.asm.transformers.TerminalTransformer$ExitVisitor.checkAccess(TerminalTransformer.java:171)
+[02:24:22] [AWT-EventQueue-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at net.minecraftforge.fml.common.asm.transformers.TerminalTransformer$ExitVisitor.systemExitCalled(TerminalTransformer.java:137)
+[02:24:22] [AWT-EventQueue-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at net.minecraft.server.gui.MinecraftServerGui$1.windowClosing(MinecraftServerGui.java:77)
+[02:24:22] [AWT-EventQueue-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at java.awt.Window.processWindowEvent(Unknown Source)
+[02:24:22] [AWT-EventQueue-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at javax.swing.JFrame.processWindowEvent(Unknown Source)
+[02:24:22] [AWT-EventQueue-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at java.awt.Window.processEvent(Unknown Source)
+[02:24:22] [AWT-EventQueue-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at java.awt.Component.dispatchEventImpl(Unknown Source)
+[02:24:22] [AWT-EventQueue-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at java.awt.Container.dispatchEventImpl(Unknown Source)
+[02:24:22] [AWT-EventQueue-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at java.awt.Window.dispatchEventImpl(Unknown Source)
+[02:24:22] [AWT-EventQueue-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at java.awt.Component.dispatchEvent(Unknown Source)
+[02:24:22] [AWT-EventQueue-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+[02:24:22] [AWT-EventQueue-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at java.awt.EventQueue.access$500(Unknown Source)
+[02:24:22] [AWT-EventQueue-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at java.awt.EventQueue$3.run(Unknown Source)
+[02:24:22] [AWT-EventQueue-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at java.awt.EventQueue$3.run(Unknown Source)
+[02:24:22] [AWT-EventQueue-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at java.security.AccessController.doPrivileged(Native Method)
+[02:24:22] [AWT-EventQueue-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+[02:24:22] [AWT-EventQueue-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+[02:24:22] [AWT-EventQueue-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at java.awt.EventQueue$4.run(Unknown Source)
+[02:24:22] [AWT-EventQueue-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at java.awt.EventQueue$4.run(Unknown Source)
+[02:24:22] [AWT-EventQueue-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at java.security.AccessController.doPrivileged(Native Method)
+[02:24:22] [AWT-EventQueue-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+[02:24:22] [AWT-EventQueue-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+[02:24:22] [AWT-EventQueue-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+[02:24:22] [AWT-EventQueue-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+[02:24:22] [AWT-EventQueue-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+[02:24:22] [AWT-EventQueue-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+[02:24:22] [AWT-EventQueue-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+[02:24:22] [AWT-EventQueue-0/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at java.awt.EventDispatchThread.run(Unknown Source)
+[02:24:22] [Server Shutdown Thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Nicox lost connection: Server closed
+[02:24:22] [Server Shutdown Thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Nicox left the game
+[02:24:22] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
